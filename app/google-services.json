@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "813498724544",
+    "project_id": "prueba03-7dbf9",
+    "storage_bucket": "prueba03-7dbf9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813498724544:android:fafc9017ecb19ef85b7d25",
+        "android_client_info": {
+          "package_name": "com.svillegas.descansoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813498724544-i96g02d21e5p832icsc8oncum9jls3t8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8Z5uCOknDRQAq-H5T4Ln9yxsYkE4jnWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813498724544-i96g02d21e5p832icsc8oncum9jls3t8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

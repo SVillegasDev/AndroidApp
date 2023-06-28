@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecciona el tipo de servicio"
+        android:textSize="18dp"
+        android:layout_marginHorizontal="50dp"
+        android:gravity="center"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spTipoServicio"
+        android:layout_marginHorizontal="50dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del servicio"
+        android:textSize="20sp"
+        android:id="@+id/txtNombre"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ubicacion"
+        android:textSize="20sp"
+        android:id="@+id/txtUbicacion"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefono de contacto"
+        android:textSize="20sp"
+        android:id="@+id/txtTelefono"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="15dp"
+        android:inputType="number"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripcion"
+        android:textSize="20sp"
+        android:id="@+id/txtDescripcion"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginVertical="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="En la descripción puedes señalar detalles del servicio, como valores, cantidad de personas que pueden participar, limitantes, entre otros."
+        android:textSize="18dp"
+        android:layout_marginHorizontal="50dp"/>
+
+
+
+    <Button
+        android:id="@+id/btnPublicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Publicar"
+        android:textSize="18sp"
+        app:cornerRadius="20dp"
+        android:layout_marginVertical="15dp"/>
+
+
+
+</LinearLayout>

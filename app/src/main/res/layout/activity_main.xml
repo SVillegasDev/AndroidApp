@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="35dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recorre Llanquihue"
+        android:gravity="center"
+        android:textSize="35dp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido a la app que recopila la información de los servicios disponibles que existen alrededor del Lago Llanquihue"
+        android:gravity="center"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="18dp"/>
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:hint="Correo electronico"
+        android:inputType="textEmailAddress"
+        android:layout_marginHorizontal="50dp"/>
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:layout_marginHorizontal="50dp"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnIniciarSesion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Iniciar sesión"
+        android:textSize="16sp"
+        app:cornerRadius="20dp" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Para acceder a la app debes de registrarte"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnRegistrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Registrarse"
+        android:textSize="16sp"
+        app:cornerRadius="20dp"/>
+
+
+</LinearLayout>
